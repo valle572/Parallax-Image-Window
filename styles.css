@@ -1,0 +1,24 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 300vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #000;
+}
+.parallax-container {
+   width: 50%;
+   height: 100vh;
+   overflow: hidden;
+   box-shadow: 0 0 1rem #f2f;
+}
+.parallax-container > img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
